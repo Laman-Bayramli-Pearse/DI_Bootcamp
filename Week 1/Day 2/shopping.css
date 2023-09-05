@@ -105,3 +105,17 @@ background-color: green;
 .loginform {
     background-color: grey;
 }
+
+/* On screens that are 992px or less, set the background color to grey */
+@media screen and (max-width: 992px) {
+    body {
+    background-color: grey;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to grey */
+  @media screen and (max-width: 600px) {
+    body {
+     background-color: grey;
+    }
+  }
