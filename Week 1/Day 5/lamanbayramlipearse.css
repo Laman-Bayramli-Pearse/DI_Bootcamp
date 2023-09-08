@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #555b6e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px; 
+}
+
+.image-container {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* .rightSide h5 {
+    display:inline;
+    margin: 0;
+    color: black; */
+    /* margin-left: 20px; */
+/* } */
+
+
+.image-container h5 {
+    display: flex;
+    text-align: center;
+    margin: 0;
+    color: black;
+}
+.navlist {
+    list-style: none;
+    display: flex;
+}
+
+.navitem {
+    margin-right: 20px;
+}
+
+.navitem:last-child {
+    margin-right: 0;
+}
+
+.navitem a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Add styles for hover state if needed */
+.navitem a:hover {
+    color: #ff6600;
+}
